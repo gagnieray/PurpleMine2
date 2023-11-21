@@ -1,0 +1,41 @@
+$blue:                          #708fab !default;
+$orange:                        #ef9f06 !default;
+$gray-galette:                  #636b70;
+$brand-primary:                 $orange !default;
+$link-color:                    $blue !default;
+$link-hover-color:              #607c95 !default;
+$font-family-sans-serif:        PtSans, Arial, sans-serif !default;
+$top-menu-bg:                   $brand-primary !default;
+$header-bg:                     $gray-galette !default;
+
+@font-face {
+  font-family: "PtSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ptsans-regular-webfont.woff2") format("woff2"),
+    url("../fonts/ptsans-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PtSans";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/ptsans-bold-webfont.woff2") format("woff2"),
+    url("../fonts/ptsans-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PtSans";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/ptsans-bolditalic-webfont.woff2") format("woff2"),
+    url("../fonts/ptsans-bolditalic-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PtSans";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/ptsans-italic-webfont.woff2") format("woff2"),
+    url("../fonts/ptsans-italic-webfont.woff") format("woff");
+}
